@@ -46,7 +46,9 @@
       "src/**/*.js",
       "!src/**/*.test.js",
       "!src/index.js",
-      "!src/mocks/*"
+      "!src/mocks/*",
+      "!src/reportWebVitals.js",
+      "!setupTests.js"
     ]
   }
 }
