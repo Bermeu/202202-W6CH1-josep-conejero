@@ -1,10 +1,7 @@
-const TaskItem = ({ task: { name, done } }) => {
+const TaskItem = ({ taskText }) => {
   return (
     <>
-      <li className={`list-item ${done ? "" : "done"}`}>{name}</li>
-      <a className="delete" href="delete">
-        X
-      </a>
+      <li>{taskText}</li>
     </>
   );
 };
