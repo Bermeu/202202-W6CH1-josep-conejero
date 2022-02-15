@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+/* import PropTypes from "prop-types";
 import TaskItem from "../TaskItem/TaskItem";
 
 const TasksList = ({ className, tasksList }) => {
@@ -16,3 +16,4 @@ TasksList.propTypes = {
 };
 
 export default TasksList;
+ */
