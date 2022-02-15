@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import tasksReducer from "./sentenceWordsReducer";
+import tasksReducer from "./tasksReducer";
 
 const rootReducer = combineReducers({
   todosTasks: tasksReducer,
